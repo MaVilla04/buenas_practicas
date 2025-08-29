@@ -2,19 +2,24 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Card con Imagen</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Imagenes Aleatorias</h1>
+	<div class="card">
+		<img id="randomImage" src="https://picsum.photos/400/250" alt="imagen aleatoria">
+		<div class="card-content">
+			<h2>Lorem Ipsum</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet lacus non nunc accumsan suscipit.
+				Suspendisse potenti. Sed vulputate turpis vel risus vulputate, sit amet faucibus nunc vehicula.</p>
+			<button class="btn" id="reloadBtn">Nueva Imagen</button>
+		</div>
+	</div>
 
-    <h2>¿Sabias ver imágenes de gatitos ayuda a disminuir el estrés y mejorar tu estado de animo?</h2>
-    <h6>¡Es cierto! Así que la próxima vez que necesites relajarte, busca un gatito adorable en nuestra página y
-        deja
-        que su ternura te llene de alegría! 🐱✨ </h6>
-    <img src="https://picsum.photos/200/300" alt="imagen aleatoria">
+	<script src="script.js"></script>
 </body>
 
 </html>
